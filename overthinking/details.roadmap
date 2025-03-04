@@ -1,0 +1,13 @@
+1. start with building the Block class.
+
+2. build the Schedule class.
+
+3. implement json for the storage
+
+4. handle user inputs in one place (this time it wont be interactive, im not sure but i'll use argparse or sys.args to make it work) and connect the functionality all together
+
+5. make it look pretty. and add the help messages and these stuff
+
+6. document everything.
+
+7. publish the first releace of FlexiBlox :D
