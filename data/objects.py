@@ -26,7 +26,7 @@ class Block:
     def modify_description(self, newDescription):
         self.description = newDescription
     
-    def adjust_duration(self, newDuration):
+    def adjust_duration(self, newDuration:int):
         self.duration = newDuration
     
 
@@ -34,6 +34,10 @@ class Block:
         return f"-- The block [{self.title}] ({self.description}) has a duration of {self.duration} minutes. --"
 
 class Schedule:
+    '''
+    A Schedule is a list of blocks
+    '''
+
     def __init__(self):
         self.blocks = []
 
